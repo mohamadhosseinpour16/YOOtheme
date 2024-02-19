@@ -16,3 +16,49 @@ header {
 header > nav {
   display: none;
 }
+/* section subheader */
+section.subheader {
+  background-color: var(--bg-subheader--);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 2rem;
+}
+/* subheader > h1 */
+section.subheader > h1 {
+  text-align: center;
+  margin: 0;
+  padding: 2rem 0;
+  width: 100%;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+/* subheader > p */
+section.subheader > p {
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0;
+  width: 100%;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+/* subheader > img */
+section.subheader > img {
+  width: 100%;
+  padding: 1rem 0;
+}
+/* subheader > button */
+section.subheader > button {
+  background-color: var(--bg-button--);
+  color: var(--color-white--);
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  margin: 2rem;
+  text-transform: capitalize;
+}

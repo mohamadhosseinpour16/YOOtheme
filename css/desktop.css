@@ -41,3 +41,54 @@ header > nav > a {
 header > svg {
   display: none;
 }
+/* section subheader */
+section.subheader {
+  width: 100%;
+  background-color: var(--bg-subheader--);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 3rem 5rem;
+}
+/* subheader > h1 */
+section.subheader > h1 {
+  text-align: center;
+  width: 60%;
+  margin: 0;
+  padding: 2rem;
+  font-weight: 300;
+  font-size: 3rem;
+}
+/* subheader > p */
+section.subheader > p {
+  text-align: center;
+  width: 70%;
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+/* subheader > img */
+section.subheader > img {
+  width: 100%;
+  padding: 1rem;
+}
+/* subheader > button */
+section.subheader > button {
+  background-color: var(--bg-button--);
+  color: var(--color-white--);
+  border-radius: 2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1rem;
+  margin: 3rem;
+  text-transform: capitalize;
+}
+/* subheader > button:hover */
+section.subheader > button:hover {
+  background-color: var(--bg-button-hover--);
+}

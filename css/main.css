@@ -1,0 +1,15 @@
+:root {
+  --bg-button--: #4c89f2;
+  --bg-button-hover--: #0172f3;
+  --bg-subheader--: #f7f7f7;
+  --bg-card--: #f9f9f9;
+  --color-black--: #000;
+  --color-white--: #fff;
+}
+body {
+  margin: 0;
+  font-family: helvetica;
+}
+* {
+  box-sizing: border-box;
+}

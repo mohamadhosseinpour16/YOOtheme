@@ -11,6 +11,7 @@ header {
   text-transform: capitalize;
   position: sticky;
   top: 0;
+  z-index: 1000;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px;
 }
 /* nav */
@@ -117,4 +118,89 @@ section.part1 > p {
   font-weight: 300;
   margin: 0;
   line-height: 1.8;
+}
+/* section .boxes */
+section.boxes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 3rem 2rem;
+}
+/* div.box */
+div.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  margin: 3rem 1rem;
+  height: 250px;
+  transition: 0.5s;
+}
+/* div.box1 */
+div.box1 {
+  background-image: url("../static/card\ img/slide 1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* div.box2 */
+div.box2 {
+  background-image: url("../static/card\ img/slide 2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* div.box3 */
+div.box3 {
+  background-image: url("../static/card\ img/slide 3.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* div.box4 */
+div.box4 {
+  background-image: url("../static/card\ img/slide 4.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* div.box5 */
+div.box5 {
+  background-image: url("../static/card\ img/slide 5.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* div.box6 */
+div.box6 {
+  background-image: url("../static/card\ img/slide 6.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* section boxes > box > button */
+section.boxes > .box > button {
+  border: none;
+  outline: none;
+  padding: 1rem 3rem;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: var(--color-white--);
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 1rem;
+}
+/* .box > .unique-button */
+.unique-button {
+  background-color: var(--bg-button--) !important;
+  color: var(--color-white--) !important;
+}
+/* .box > .unique-button:hover */
+div.box:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px;
+}
+/* div.box:hover.box > button */
+div.box:hover.box > button {
+  opacity: 1;
 }

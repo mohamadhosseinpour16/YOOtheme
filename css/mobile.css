@@ -166,3 +166,24 @@ section.boxes > .box > button {
   background-color: var(--bg-button--) !important;
   color: var(--color-white--) !important;
 }
+/* section.buttons */
+section.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 0;
+}
+/* section.buttons > button */
+section.buttons > button {
+  background-color: var(--bg-button--);
+  color: var(--color-white--);
+  border-radius: 2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 1rem;
+  text-transform: capitalize;
+}

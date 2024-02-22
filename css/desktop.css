@@ -204,3 +204,30 @@ div.box:hover {
 div.box:hover.box > button {
   opacity: 1;
 }
+/* section.buttons */
+section.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 0;
+}
+/* section.buttons > button */
+section.buttons > button {
+  background-color: var(--bg-button--);
+  color: var(--color-white--);
+  border-radius: 2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1rem;
+  margin: 3rem;
+  text-transform: capitalize;
+}
+/* section.buttons > button:hover */
+section.buttons > button:hover {
+  background-color: var(--bg-button-hover--);
+}

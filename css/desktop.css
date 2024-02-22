@@ -287,3 +287,31 @@ section.part2 > .part2__content2 > button {
 section.part2 > .part2__content2 > button:hover {
   background-color: var(--bg-button-hover--);
 }
+/* section.part3 */
+section.part3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 3rem 0;
+}
+/* section.part3 > h1 */
+section.part3 > h1 {
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0;
+  font-size: 3rem;
+  font-weight: 300;
+}
+/* section.part3 > p */
+section.part3 > p {
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 55%;
+  line-height: 1.7;
+}

@@ -231,3 +231,59 @@ section.buttons > button {
 section.buttons > button:hover {
   background-color: var(--bg-button-hover--);
 }
+/* section.part2 */
+section.part2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin: 3rem 0;
+  padding: 2rem 0;
+}
+/* section.part2 > .part2__content1 */
+section.part2 > .part2__content1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  margin: 0 auto 2rem;
+}
+/* section.part2 > .part2__content1 > h1 */
+section.part2 > .part2__content1 > h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+/* section.part2 > .part2__content2 */
+section.part2 > .part2__content2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+/* section.part2 > .part2__content2 > p */
+section.part2 > .part2__content2 > p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 0;
+  width: 80%;
+  line-height: 1.5;
+}
+/* section.part2 > .part2__content2 > button */
+section.part2 > .part2__content2 > button {
+  background-color: var(--bg-button--);
+  color: var(--color-white--);
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+/* section.part2 > .part2__content2 > button:hover */
+section.part2 > .part2__content2 > button:hover {
+  background-color: var(--bg-button-hover--);
+}

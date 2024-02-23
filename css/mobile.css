@@ -318,3 +318,27 @@ main > figcaption > button {
   outline: none;
   text-transform: capitalize;
 }
+/* section.part4 */
+section.part4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* section.part4 > h1 */
+section.part4 > h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 3rem 0;
+}
+/* section.part4 > p */
+section.part4 > p {
+  text-align: center;
+  width: 95%;
+  margin: 0;
+  line-height: 1.7;
+}

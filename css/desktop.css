@@ -377,3 +377,30 @@ main > figcaption > button:hover {
   margin: 0;
   padding-left: 5rem;
 }
+/* section.part4 */
+section.part4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 4rem 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 4rem 0;
+}
+/* section.part4 > h1 */
+section.part4 > h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 4rem 0 3rem;
+}
+/* section.part4 > p */
+section.part4 > p {
+  text-align: center;
+  width: 45%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.7;
+  margin: 0;
+  padding: 2rem 0;
+}

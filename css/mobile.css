@@ -342,3 +342,63 @@ section.part4 > p {
   margin: 0;
   line-height: 1.7;
 }
+/* main.cards */
+main.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem;
+}
+/* main.cards > .card */
+main.cards > .card {
+  background-color: var(--bg-card--);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 2rem 0;
+}
+/* main.cards > .card > figure */
+main.cards > .card > figure {
+  margin: 0;
+}
+/* main.cards > .card > figure > img */
+main.cards > .card > figure > img {
+  width: 100%;
+}
+/* main.cards > .card > figcaption */
+main.cards > .card > figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* main.cards > .card > figcaption > h1 */
+main.cards > .card > figcaption > h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 3rem;
+}
+/* main.cards > .card > figcaption > p */
+main.cards > .card > figcaption > p {
+  text-align: center;
+  margin: 0;
+  padding: 0 0.5rem 3rem;
+  width: 100%;
+  line-height: 1.7;
+}
+/* main.cards > .card > figcaption > button */
+main.cards > .card > figcaption > button {
+  background-color: inherit;
+  outline: none;
+  border: none;
+  padding: 0.3rem 0;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border-bottom: 1px solid var(--color-black--);
+}

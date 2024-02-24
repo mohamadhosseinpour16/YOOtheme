@@ -473,3 +473,15 @@ main.cards > .card > figcaption > button {
 main.cards > .card > figcaption > button:hover {
   opacity: 0.6;
 }
+/* section.slider */
+section.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-image: url("../static/background\ img/slide 7.webp");
+  background-size: cover;
+  margin: 5rem 0;
+}

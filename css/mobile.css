@@ -414,3 +414,44 @@ section.slider {
   background-size: cover;
   margin: 5rem 0;
 }
+/* footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* footer > figure */
+footer > figure {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 1.5rem 1rem;
+}
+footer > figure > img {
+  margin: 0;
+}
+footer > .column {
+  width: 40%;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+/* footer > .column > h1 */
+footer > .column > h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1.5rem 0;
+}
+/* footer > .column > a */
+footer > .column > a {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+  color: var(--color-black--);
+}
